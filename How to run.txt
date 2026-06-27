@@ -1,0 +1,24 @@
+## Setup and Execution Guide
+
+Follow these steps to set up the environment and run the Student Performance Dashboard on your local machine.
+
+### Prerequisites
+Make sure you have Python installed (version 3.8 or higher is recommended).
+
+### Step 1: Clone or Copy the Files
+Ensure your project directory contains the following files in the same folder:
+* `app.py` (The dashboard application script)
+* `student_data.csv` (The fallback training dataset)
+
+---
+
+### Step 2: Install Required Dependencies
+Open your terminal or command prompt inside the project folder and run the following command to install the required libraries:
+
+```bash
+pip install streamlit pandas numpy plotly scikit-learn
+
+
+### Step 3: Run in terminal
+
+" streamlit run app.py  "
